@@ -1,0 +1,120 @@
+.papeletas-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.papeletas-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.papeletas-container form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.papeletas-container form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.papeletas-container form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.papeletas-container form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.papeletas-container form button:hover {
+  background: #5a67d8;
+}
+
+.papeletas-container ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.papeletas-container li {
+  background: white;
+  color: #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.papeletas-container li button {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.papeletas-container li button:hover {
+  background: #c53030;
+}
+
+.papeletas-container form select.select-dropdown {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+  color: #333;
+  appearance: none;
+}
+
+.papeletas-container form select.select-dropdown:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.4);
+}
+
+.volver-btn {
+  background: #e2e8f0;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.volver-btn:hover {
+  background: #cbd5e0;
+}

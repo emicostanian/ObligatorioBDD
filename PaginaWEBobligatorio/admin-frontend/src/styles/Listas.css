@@ -1,0 +1,114 @@
+.listas-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.listas-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.lista-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.lista-form input,
+.lista-form select {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.lista-form select {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.lista-form button {
+  padding: 0.6rem;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.lista-form button:hover {
+  background-color: #3b5bdb;
+}
+
+.error {
+  color: #ff6b6b;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.listas-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.listas-list li {
+  background: white;
+  color: black;
+  padding: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.listas-list button {
+  background-color: #e03131;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.listas-list button:hover {
+  background-color: #c92a2a;
+}
+
+.volver-btn {
+  background: #e2e8f0;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.volver-btn:hover {
+  background: #cbd5e0;
+}

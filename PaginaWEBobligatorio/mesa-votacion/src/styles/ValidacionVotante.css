@@ -1,0 +1,71 @@
+.validar-votante-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f7f3fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.validar-votante-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #582e61;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form input:focus {
+  border-color: #823970;
+}
+
+.form button {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #823970;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #a04a92;
+}
+
+.resultado {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  color: #333;
+}
+
+.error {
+  color: #c62828;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.observado {
+  margin-top: 10px;
+  color: #d97706;
+  font-weight: bold;
+}

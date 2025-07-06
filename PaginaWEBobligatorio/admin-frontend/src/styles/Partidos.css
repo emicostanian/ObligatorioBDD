@@ -1,0 +1,57 @@
+.partidos-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.partidos-container h2 {
+  color: #582e61;
+  margin-bottom: 16px;
+}
+
+.formulario-partido {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formulario-partido input,
+.formulario-partido select,
+.formulario-partido button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.formulario-partido button {
+  background-color: #823970;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.lista-partidos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-partidos li {
+  background: #f4f0f5;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-partidos li button {
+  background-color: #c62828;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,178 @@
+/* Estilo base tipo gub.uy */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+}
+
+.totem-container {
+  width: 100%;
+  max-width: 600px;
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.totem-container h1 {
+  color: #005aa7;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.totem-container > p {
+  color: #6c757d;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.totem-container::before {
+  content: "🗳️";
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  border: 1px solid #dee2e6;
+}
+
+.card h2 {
+  color: #343a40;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card label {
+  display: block;
+  color: #495057;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.card input,
+.card select {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  transition: border 0.2s ease;
+}
+
+.card input:focus,
+.card select:focus {
+  outline: none;
+  border-color: #005aa7;
+  box-shadow: 0 0 0 3px rgba(0, 90, 167, 0.2);
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 0.65rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:not(.secondary):not(:disabled) {
+  background: #005aa7;
+  color: white;
+}
+
+button:not(.secondary):not(:disabled):hover {
+  background: #004080;
+}
+
+.secondary {
+  background: #e9ecef;
+  color: #212529;
+  border: 1px solid #ced4da;
+}
+
+.secondary:hover {
+  background: #dee2e6;
+}
+
+button:disabled {
+  background: #e2e8f0;
+  color: #a0aec0;
+  cursor: not-allowed;
+}
+
+/* Éxito */
+.success-message {
+  text-align: center;
+  color: #28a745;
+}
+
+.success-message h2 {
+  margin-bottom: 1rem;
+}
+
+.success-message::before {
+  content: "✅";
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Errores */
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .totem-container {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}

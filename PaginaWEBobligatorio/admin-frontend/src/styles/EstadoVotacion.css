@@ -1,0 +1,69 @@
+.estado-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #582e61, #823970);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.estado-container h2 {
+  margin-bottom: 1rem;
+  font-size: 24px;
+}
+
+.botones-estado {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botones-estado button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botones-estado button:disabled {
+  background-color: #cccccc;
+  cursor: default;
+}
+
+.botones-estado button:hover:not(:disabled) {
+  background-color: #ff479a;
+}
+
+.mensaje {
+  margin-top: 1rem;
+  color: #b2ffb2;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ffb2b2;
+}
+
+.volver-btn {
+  background: #e2e8f0;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.volver-btn:hover {
+  background: #cbd5e0;
+}
